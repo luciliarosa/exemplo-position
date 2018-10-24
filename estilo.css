@@ -1,0 +1,42 @@
+body{
+    background-color: pink;
+}
+.externa{
+    border: solid 2px red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.interna{
+    padding: 215px;
+    margin: 30px;
+}
+.interna:nth-child(1){
+    background-color: red;
+    position: absolute;
+    bottom: 120px;
+    left: 100px;
+}
+.interna:nth-child(2){
+    background-color:skyblue;
+    position: absolute;
+    bottom: 30px;
+    left: 200px;
+}
+.interna:nth-child(3){
+    background-color: black;
+    position: absolute;
+    bottom: -60px;
+    left: 300px;
+    
+}
+.interna:nth-child(4){
+    background-color: yellow;
+    position: absolute;
+    bottom: -160px;
+    left: 400px;
+    
+}
+
+
